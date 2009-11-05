@@ -20,7 +20,7 @@ end
 =end
 
 betfair_driver = CommonBetfair.new
-user = User.new(betfair_driver, {:username => 'zemariamm', :password => 'mamute45'})
+user = User.new(betfair_driver, {:username => 'root', :password => '******'})
 user.login
 
 namespace :dev do
